@@ -1,6 +1,9 @@
 <?php
 namespace DomainTools\Specification;
 
+/**
+ * @author Mathias Verraes
+ */
 abstract class AbstractSpecification implements Specification
 {
 	public function and_(Specification $other)

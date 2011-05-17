@@ -1,6 +1,9 @@
 <?php
 namespace DomainTools\Specification;
 
+/**
+ * @author Mathias Verraes
+ */
 class OrSpecification extends AbstractSpecification implements Specification
 {
 	/** @var Specification */

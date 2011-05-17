@@ -12,6 +12,9 @@ require_once __DIR__.'/../../../lib/DomainTools/Specification/CompositeSpecifica
 require_once __DIR__.'/../../../lib/DomainTools/Specification/NotSpecification.php';
 require_once __DIR__.'/../../../lib/DomainTools/Specification/OrSpecification.php';
 
+/**
+ * @author Mathias Verraes
+ */
 class SpecificationsTest extends TestCase
 {
 	/** @var MockSpecification */

@@ -4,6 +4,8 @@ namespace DomainTools\Specification;
 /**
  * Works like AndSpecification, only here you can pass an unlimited amount of
  * Specifications in the constructor
+ *
+ * @author Mathias Verraes
  */
 class CompositeSpecification extends AbstractSpecification implements Specification
 {
