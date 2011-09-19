@@ -29,7 +29,7 @@ class CompositeSpecification extends AbstractSpecification implements Specificat
 			if(!$specification->isSatisfiedBy($object)) {
 				return false;
 			}
-			return true;
 		}
+		return true;
 	}
 }
